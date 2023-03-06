@@ -28,9 +28,8 @@
         }
 
 
-
         Console.WriteLine("Binario: ");
-        for (int i = 0; i <= cont; i++)
+        for (int i = binario.Length-1; i >= 0; i--)
         {
             Console.WriteLine(binario[i]);;
         }
